@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --col50: #ecfdf5;
+    --col100: #d1fae5;
+    --col200: #a7f3d0;
+    --col300: #6ee7b7;
+    --col400: #34d399;
+    --col500: #10b981;
+    --col600: #059669;
+    --col700: #047857;
+    --col800: #065f46;
+    --col900: #064e3b;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--col50);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(min-content, .75fr) 5fr;
+}
+
+.sidebar {
+    background-color: var(--col700);
+    padding: .7rem 1.3rem;
+}
+
+.sidebar > .header, .navigation > .nav-item, .sec-nav > .nav-item {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.sidebar > .header {
+    margin-top: .8rem;
+}
+
+.navigation {
+    margin-top: 2rem;
+}
+
+.sec-nav {
+    margin-top: 3rem;
+}
+
+.sidebar > .header > .text {
+    font-size: 1rem;
+}
+
+.navigation > .nav-item > svg, .sec-nav > .nav-item > svg {
+    width: 15px;
+}
+
+.navigation > .nav-item > .text, .sec-nav > .nav-item > .text {
+    font-size: .8rem;
+}
