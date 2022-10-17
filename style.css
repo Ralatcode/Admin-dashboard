@@ -69,3 +69,52 @@ body {
 .navigation > .nav-item > .text, .sec-nav > .nav-item > .text {
     font-size: .8rem;
 }
+
+.main-content > .main-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: 1rem auto 0;
+}
+
+#search {
+    font: inherit;
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--col300);
+    padding: .3rem .5rem;
+    border: none;
+    border-radius: 10px;
+    margin-left: .5rem;
+}
+
+.main-header > .search-box {
+    display: flex;
+    align-items: center;
+}
+
+.main-header > .search-box svg {
+    width: 15px;
+}
+.main-header > .user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.main-header > .user-info > svg {
+    width: 16px;
+}
+
+.main-header > .user-info > .user-avatar {
+    color: var(--col100);
+    background-color: #4E0619;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.main-header > .user-info > .user-name {
+    font-size: .8rem;
+}
