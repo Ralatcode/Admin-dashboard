@@ -140,12 +140,11 @@ body {
 }
 
 .all-info > .other > h5 {
-    font-size: .6rem;
+    font-size: .75rem;
 }
 
 .all-info > .other > h4 {
-    font-size: 1.2rem;
-    margin-top: 0.4rem;
+    font-size: 1rem;
 }
 
 .btns {
@@ -188,8 +187,8 @@ body {
     margin-top: .5rem;
 }
 
-.projects > .title {
-    font-size: 1.2rem;
+.projects > .title, .announcements > .title {
+    font-size: 1.05rem;
     text-transform: capitalize;
 }
 
@@ -213,4 +212,34 @@ body {
 .icons {
     text-align: right;
     margin-top: 1.3rem;
+}
+
+.icons > * {
+    width: 15px;
+    margin-left: .4rem;
+}
+
+.announcements > .content {
+    background-color: var(--col100);
+    padding: .8rem .5rem .8rem .75rem;
+    border-radius: 5px;
+}
+
+.post {
+    margin-top: .5rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px groove var(--col400);
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: .8rem;
+    text-transform: capitalize;
+}
+
+.post > p {
+    font-size: .6rem;
 }
