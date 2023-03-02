@@ -170,6 +170,13 @@ body {
     outline: none;
     border-radius: 30px;
     min-width: 80px;
+    transition: all ease-in-out 200ms;
+}
+
+.btns > *:hover {
+    background-color: var(--col300);
+    color: var(--col700);
+    border: 2px solid var(--col700);
 }
 
 .main-content > .parent-box {
