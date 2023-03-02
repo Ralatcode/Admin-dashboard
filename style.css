@@ -189,7 +189,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
+    gap: 1rem;
 }
 
 .projects > .title, .announcements > .title, .trending > .title {
@@ -203,15 +204,15 @@ body {
 }
 
 .project {
-    padding: .5rem 1rem;
+    padding: 1.5rem 2.5rem 1.5rem 1rem;
     background-color: var(--col100);
-    border-left: 4px solid var(--col700);
+    border-left: 7px solid var(--col700);
     border-radius: 5px;
+    max-width: 550px;
 }
 
 .project > .para {
     font-size: 1rem;
-    max-width: 360px;
     margin-top: .5rem;
 }
 
